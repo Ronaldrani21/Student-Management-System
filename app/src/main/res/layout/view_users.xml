@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayoutUsers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="horizontal">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="USER|"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="85dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="REG-NO|"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="NAME|"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="EMAIL|"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="COURSEUNIT|"
+            android:textStyle="bold" />
+
+    </TableRow>
+</TableLayout>

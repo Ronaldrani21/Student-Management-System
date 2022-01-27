@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ViewResults">
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dip"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dip">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:orientation="vertical">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Reg No|" />
+                    <TextView
+                        android:text="CourseUnit|"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="52dp"
+                        android:gravity="center"
+                        android:text="CW1|"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:gravity="center"
+                        android:text="CW2|"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:gravity="center"
+                        android:text="CW3|"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:text="Exam|"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:text="Final Mark"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+        <string name="app_name">Student Management System</string>
+        <string name="login_options">Login Options</string>
+        <string name="select">User type</string>
+        <string name="select2">Register Option</string>
+        <string name="courseselect">Select Course</string>
+        <string name="login">Login</string>
+        <string name="password">Password</string>
+        <string name="name">Name</string>
+        <string name="register_user">Register User</string>
+        <string name="Student_results">STUDENT RESULTS</string>
+        <string name="manage_users">Add Users</string>
+        <string name="admin_dashboard">ADMIN DASHBOARD</string>
+        <string name="Manage_results">Manage Student Results</string>
+        <string name="view_users">View Users</string>
+        <string name="view_stdt_results">View Student Results</string>
+</resources>
